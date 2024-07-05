@@ -2,7 +2,7 @@
 
 # Free LangChain Web Scraper and QA Bot
 
-This project demonstrates how to build a web scraping and question-answering bot using LangChain, OpenAI's GPT model, and HuggingFace embeddings. The bot scrapes content from a specified webpage, processes the content, and then answers questions based on the scraped data.
+This project demonstrates how to build a web scraping and question-answering bot using LangChain, LLM model, and HuggingFace embeddings. The bot scrapes content from a specified webpage, processes the content, and then answers questions based on the scraped data.
 
 ## Table of Contents
 
