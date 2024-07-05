@@ -28,7 +28,6 @@ Before you begin, ensure you have met the following requirements:
     ```
     git clone https://github.com/your-username/langchain-web-scraper-qa-bot.git
     cd langchain-web-scraper-qa-bot
-    
     ```
     
 2. Install the dependencies:
@@ -37,14 +36,11 @@ Before you begin, ensure you have met the following requirements:
     npm install
     # or
     yarn install
-    
     ```
     
 3. Create a `.env` file in the root directory and add your HuggingFace API key:
-    
     ```
     HUGGINGFACE_API_KEY=your_huggingface_api_key
-    
     ```
     
 
@@ -54,7 +50,6 @@ To run the main script:
 
 ```
 node index.js
-
 ```
 
 This script performs the following steps:
@@ -78,7 +73,6 @@ You can customize various aspects of the script:
 ### Example Configuration
 
 In `index.js`:
-
 ```
 const model = new ChatOpenAI({
   modelName: "google/gemma-2-9b-it:free",
