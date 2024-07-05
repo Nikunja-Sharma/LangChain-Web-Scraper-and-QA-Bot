@@ -49,7 +49,7 @@ Before you begin, ensure you have met the following requirements:
 To run the main script:
 
 ```
-node index.js
+npx ts-node index.ts
 ```
 
 This script performs the following steps:
@@ -72,7 +72,7 @@ You can customize various aspects of the script:
 
 ### Example Configuration
 
-In `index.js`:
+In `index.ts`:
 ```
 const model = new ChatOpenAI({
   modelName: "google/gemma-2-9b-it:free",
